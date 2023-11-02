@@ -1,0 +1,1 @@
+print(list(filter(lambda num:num%sum(int(dig) for dig in str(num))==0 and num>9,range(1,100))))

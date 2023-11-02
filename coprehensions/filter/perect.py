@@ -1,0 +1,1 @@
+print(list(filter(lambda num:sum(val for val in range(1,num//2+1) if num%val==0)==num, [12,6,28,43,24])))

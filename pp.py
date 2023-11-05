@@ -1,5 +1,11 @@
-L=[10,12,3,8,12,5,12,11]
-newL=list(set(L))
-m=max(newL)
-newL.remove(m)
-print(max(newL))
+s='malalam'
+newS=''
+li=-1
+for ch in range(len(s)//2):
+    if s[ch]==s[li]:
+        li-=1
+    else:
+        print('not')
+        break
+else:
+    print('palindrom' )

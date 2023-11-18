@@ -1,4 +1,4 @@
-d=0
+d=1
 for num in range(1,100):
     if num>1:
         for val in range(2,num//2+1):

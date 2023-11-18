@@ -1,5 +1,4 @@
-s=input("enter the number :-")
-while s!='':
-    print(f'{s[0]}={s.count(s[0])}')
-    s=s.replace(s[0],'')
-   
+L=[10,20,30]
+i=iter(L)
+for next in L:
+    print(next)

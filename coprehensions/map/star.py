@@ -1,0 +1,1 @@
+print('\n'.join(list(map(lambda s,r:(s*' ')+(r*'*'),[s for s in range(3,-1,-1)], [r for r in range(1,5)]))))

@@ -3,4 +3,4 @@ def fab(n):
         return n-1
     return fab(n-1) + fab(n-2)
 
-print(fab(5))
+print(fab(10))

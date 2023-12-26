@@ -10,5 +10,5 @@ def isperfect(num,val):
 #     if val==num//2+1:
 #         return 0
 #     return sum+isperfect(num,val+1)
-num=15
+num=6
 print(isperfect(num,1))

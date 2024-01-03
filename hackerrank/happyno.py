@@ -6,7 +6,7 @@ def happyNo(num):
             res+=rem**2
             num//=10
         num=res
-    return num==1
+    return num==1 or num==7
 
 
-print(happyNo(91))
+print(happyNo(97))

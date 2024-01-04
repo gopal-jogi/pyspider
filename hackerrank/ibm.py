@@ -5,7 +5,7 @@ def count_triplets(arr, n, d):
         if sum(el)%d==0:
             co+=1
     return co
-a = [3,3,4,7]
+a = [3,3,4,7,3]
 d =5
 result = count_triplets(a, len(a), d)
 print(result)

@@ -1,0 +1,1 @@
+"height = 4\n\nwidth = (2 * height) - 1\nn = width // 2\nfor i in range(0, height): \n    for j in range(0, width+1): \n        if (j == n or j == (width - n) or (i == (height // 2) and j > n and j < (width - n))): \n            print(\"*\", end=\"\") \n        else: \n            print(end=\" \") \n    print() \n    n = n-1"

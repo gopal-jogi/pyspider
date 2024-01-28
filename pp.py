@@ -1,7 +1,7 @@
-def fa(n,f=1):
-    while n>0:
-        f*=n
-        n-=1
-    return f
-n=5
-print(fa(n))
+for i in range(3):
+    for j in range(3):
+        if i==j==1:
+            print('L',end='')
+        else:
+            print('*',end='')
+    print()
